@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.header{
+  background-image: url('../imagens/wave\ \(4\).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+
+.header, .header-h1, .header-h2, .header-h4{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif ;
+  text-align: center;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.header .header-h1{
+  margin: 9px 0px 21px 0px;
+  font-size: 2em;
+}
+
+.header .header-h2{
+   padding-top: 35px;
+   font-size: 1.2em;
+}
+
+.header .header-h4{
+  font-size: 0.9em;
+}
+
+.header .nav .list-nav{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header .nav .list-nav{
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header .nav .list-nav li{
+  margin: 0px 10px 0px 10px ;
+}
+
+.header .nav .list-nav li a{
+  text-decoration: none;
+  width: 160px;
+  height: 40px;
+  background-color: #0fbaf9a1;
+  color: #ffffff;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+}
