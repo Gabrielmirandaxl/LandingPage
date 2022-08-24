@@ -1,3 +1,5 @@
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,10 +7,12 @@
 
 /* HEADER */
 .header{
-  background-image: url('../imagens/wave\ \(4\).svg');
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 75%);
+  background-color: #1e272e;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 480px;
+  height: 300px;
+  
+  
 }
 
 .header, .header-h1, .header-h2, .header-h4{
@@ -16,7 +20,7 @@
   font-family: Arial, Helvetica, sans-serif ;
   text-align: center;
   font-weight: 700;
-  text-transform: lowercase;
+  
 }
 
 .header .header-h1{
@@ -55,9 +59,106 @@
   text-decoration: none;
   width: 160px;
   height: 40px;
+  background-color: #0fbaf969;
+  color: #ffffff81;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+  transition: 400ms;
+}
+
+
+.header .nav .list-nav li a:hover{
+  text-decoration: none;
+  width: 160px;
+  height: 40px;
   background-color: #0fbaf9a1;
   color: #ffffff;
   padding: 9px;
   border: none;
   border-radius: 4px;
+  transition: 400ms;
+  box-shadow: 0px 1px 6px #00000029;
 }
+
+/* END HEADER */
+
+/* SECTION-INFOR AND FORM */
+
+.main{
+  margin-top: 30px;
+}
+
+.main .section-data-infor .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5em;
+  
+}
+
+.main .section-data-infor .content .container-infor{
+  width: 400px;
+}
+
+.main .section-data-infor .content .container-infor .title-infor{
+  color: #1e272e;
+  margin-bottom: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.main .section-data-infor .content .container-infor .p-infor{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .section-data-infor .content .container-form .data-personal {
+  margin: 0px 0px 16px 0px ;
+ }
+
+.main .section-data-infor .content .container-form .data-personal label{
+ display: block;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #1e272e;
+ margin-bottom: 6px;
+}
+
+.main .section-data-infor .content .container-form .data-personal .nome, .email, .cpf{
+ width: 340px;
+ height: 30px;
+ border: 1px solid #707070;
+ outline: none;
+ padding: 0px 0px 0px 5px;
+ }
+
+.main .section-data-infor .content .container-form .button-submit{
+ text-align: center;
+ margin-top: 15px;
+ }
+
+ .main .section-data-infor .content .container-form .button-submit button{
+ width: 340px;
+ height: 35px;
+ cursor: pointer;
+ background-color: #0fbaf985;
+ color: #ffffffa8;
+ border: none;
+ border-radius: 3px;
+ transition: 400ms;
+ font-size: 1.1em;
+ }
+
+ .main .section-data-infor .content .container-form .button-submit button:hover{
+  width: 340px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #0fbaf9dc;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  transition: 400ms;
+  }
+  
+  /* END SECTION-INFOR AND FORM */
+
