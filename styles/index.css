@@ -16,7 +16,7 @@
   background-color: var(--primary);
   background-repeat: no-repeat;
   height: 300px;
-  z-index: 1;
+  
   
   
 }
@@ -117,7 +117,7 @@
   margin: 0px 0px 16px 0px ;
  }
 
-.main .section-data-infor .content .container-form .data-personal label{
+.main .section-data-infor .content .container-form .data-personal label , .label-invite{
  display: block;
  font-weight: bold;
  font-family: Arial, Helvetica, sans-serif;
@@ -125,7 +125,7 @@
  margin-bottom: 6px;
 }
 
-.main .section-data-infor .content .container-form .data-personal .nome, .email, .cpf{
+.main .section-data-infor .content .container-form .data-personal .nome, .email, .cpf, .invite-friends{
  width: 340px;
  height: 30px;
  border: 1px solid #707070;
@@ -309,6 +309,87 @@
 
    /* END SECTION-PRODUCTS*/
 
+  /* SECTION-INVITE*/
+
+  .main .section-invite{
+    margin-top: 30px;
+  }
+  
+  .main .section-invite .content-invite{
+  text-align: center;
+  }
+
+  .main .section-invite .content-invite .message-invite{
+  font-family: Arial, Helvetica, sans-serif;
+  
+ }
+
+ .main .section-invite .content-invite .form-invite{
+  margin: 35px 0px 0px 0px;
+ }
+ 
+ .main .section-invite .content-invite .form-invite .form-friends .inputs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  
+   }
+ 
+ .main .section-invite .content-invite .form-invite .form-friends .data-friend label{
+display: block;
+text-align: start;
+
+ }
+ 
+ .main .section-invite .content-invite .form-invite .form-friends .button-invite{
+  margin-top: 30px;
+  
+   }
+  
+ .main .section-invite .content-invite .form-invite .form-friends .button-invite .submit-invite{
+  margin-top: 15px;
+  width: 260px;
+  height: 39px;
+  background-color: #0fbaf985;
+  border: none;
+  border-radius: 4px;
+  color: #ffffffa8;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 400ms;
+   }
+   
+ .main .section-invite .content-invite .form-invite .form-friends .button-invite .submit-invite:hover{
+  margin-top: 15px;
+  width: 260px;
+  height: 39px;
+  background-color: #0fbaf9d0;
+  color: #ffffffcb;
+  box-shadow: 0px 0px 6px #0fbaf9d0;
+  transition: 400ms;
+   }
+
+  /* END SECTION-INVITE*/
+
+   /* FOOTER */
+  
+  .footer{
+    margin-top: 80px;
+    padding: 50px 0px 0px 0px;
+    clip-path: polygon(30% 16%, 82% 5%, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 24%);
+    background-color: var(--primary);
+    color: #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    }
+    
+ 
+
+   /* END FOOTER */
 
 
 
