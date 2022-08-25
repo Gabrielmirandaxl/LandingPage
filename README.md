@@ -52,7 +52,7 @@ $ cd LandingPage
 <br>
 
 ## 🌐 aplicação
-<img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/CRUD/blob/main/src/public/gif/2022-07-17%2014-06-31%20(1).gif">
+<img width="900" heigth="900"  src="https://github.com/Gabrielmirandaxl/LandingPage/blob/master/imagens/2022-08-24%2023-44-41%20(1).gif">
 
 <br>
 
