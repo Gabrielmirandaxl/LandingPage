@@ -1,4 +1,5 @@
 let form = document.querySelector('.form')
+let formInvite = document.querySelector('.form-friends')
 let cpf = document.querySelector('.cpf')
 let page = 1
 cpf.addEventListener('keypress', function(){
@@ -24,8 +25,52 @@ cpf.addEventListener('keypress', function(){
 form.addEventListener('submit', function submit(e){
   e.preventDefault()
 
+ let inputNome = document.querySelector('.nome')
+ let erro = false
+ //validation nome
+ if(!inputNome.value){
+  inputNome.classList.add('inputErro')
+  erro = true
+ }
+ else{
+  inputNome.classList.remove('inputErro')
+ }
+
+ //validation email
+ let inputEmail = document.querySelector('.email')
+ 
+ if(!inputEmail.value){
+  inputEmail.classList.add('inputErro')
+  erro = true
+ }
+ else{
+  inputEmail.classList.remove('inputErro')
+ }
+
+ //validation cpf
+ let cpfInput = document.querySelector('.cpf')
+
+ if(cpfInput.value.length < 14){
+ cpfInput.classList.add('inputErro')
+ erro = true
+ }
+ else{
+cpfInput.classList.remove('inputErro')
+ }
 
 
+ if(!erro){
+   form.submit()
+ }
+ else{
+  alert('Preencha todos os campos de forma correta!')
+ }
+
+})
+
+//validation of form-friends
+formInvite.addEventListener('submit', function(e){
+ e.preventDefault()
 })
 
 
