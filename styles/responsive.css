@@ -4,5 +4,84 @@
     padding: 0;
   }
 
+  /* HEADER */
+  .header{
+    padding-bottom: 70px;
+   
+  }
+  
+.header .header-h1{
+  margin: 9px 0px 21px 0px;
+  font-size: 40px;
+}
+
+.header .header-h2{
+   padding-top: 35px;
+   font-size: 20px;
+}
+
+.header .header-h4{
+  font-size: 14px;
+}
+  
+  .header .nav .list-nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+   
+    
+
+  }
+
+  .header .nav .list-nav li{
+  
+  }
+
+  /* END HEADER */
+  
+  /* SECTION-INFOR AND FORM */
+  
+  .main .section-data-infor .content .container-infor .title-infor{
+    color: var(--primary);
+    margin-bottom: 13px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+
+  .main .section-data-infor .content .container-infor .p-infor{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  
+  
+  .barra{
+    text-align: center;  
+  }
+
+  /* SECTION-INFOR AND FORM */
+
+  .main .section-invite .content-invite .message-invite{
+    font-family: Arial, Helvetica, sans-serif;
+    
+   }
+
+   /* END SECTION-INFOR AND FORM */
+  
+
+/*SECTION-INVITE*/
+/*SECTION-INVITE*/
+
+/*FOOTER*/
+
+.footer{
+  font-size: 12px;
+   }
+/* END FOOTER*/
+
+
 
 }
