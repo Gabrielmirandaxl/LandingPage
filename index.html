@@ -60,25 +60,25 @@
                 <form method="post" class="form">
                   <div class="data-personal">
                     <label for="nome">Seu nome:</label>
-                    <input type="text" name="nome" class="nome" autocomplete="off">
+                    <input type="text" name="nome" class="nome" autocomplete="off" placeholder="Ex: Fulano Silva">
                   </div>
   
                  <div class="data-personal">
                   <label for="nome">E-mail:</label>
-                  <input type="email" name="email" class="email" autocomplete="off">
+                  <input type="email" name="email" class="email" autocomplete="off" placeholder="Ex: exemplo@gmail.com">
                  </div>
   
                  <div class="data-personal">
                   <label for="nome">Cpf:</label>
-                  <input type="text" name="cpf" class="cpf" maxlength="14"  autocomplete="off">
+                  <input type="text" name="cpf" class="cpf" maxlength="14"  autocomplete="off" placeholder="Ex: 000.000.000-00">
                  </div>
   
                  <div>
-                  <input type="radio" name="sexo" class="sexo" value="Masculino">
+                  <input type="radio" name="sexo" class="sexo" value="Masculino" required>
                   <label for="Masculino">Masculino</label>
-                  <input type="radio" name="sexo" class="sexo" value="Feminino">
+                  <input type="radio" name="sexo" class="sexo" value="Feminino" required>
                   <label for="Feminino">Feminino</label>
-                  <input type="radio" name="sexo" class="sexo" value="Outros">
+                  <input type="radio" name="sexo" class="sexo" value="Outros" required>
                   <label for="Outros">Outros</label>
                  </div>
   
@@ -129,12 +129,12 @@
                     <div class="inputs">
                       <div class="data-friend">
                         <label for="invite-friends" class="label-invite">Nome do seu amigo:</label>
-                        <input type="text" class="invite-friends" name="nome-friend">
+                        <input type="text" class="invite-friends" name="nome-friend" placeholder="Ex: Fulano Ciclano" required>
                       </div>
   
                       <div class="data-friend">
                         <label for="invite-friends" class="label-invite">Email:</label>
-                        <input type="email" class="invite-friends" name="email-friend">
+                        <input type="email" class="invite-friends" name="email-friend" placeholder="Ex: exemplo@gmail.com" required>
                       </div>
                     </div>
 
